@@ -1,0 +1,6 @@
+## ref: https://github.com/kubernetes/charts/blob/master/incubator/elasticsearch/values.yaml
+
+client:
+  name: client
+  replicas: 1
+  serviceType: NodePort
